@@ -6,10 +6,10 @@
     box-sizing: border-box;
 }
 
-.progress-bar.progress-bar::-webkit-progress-bar{
+.progress-bar::-webkit-progress-bar{
     background-color: #FFFFFF;
 }
 
-.progress-bar.progress-bar::-webkit-progress-value {
+.progress-bar::-webkit-progress-value {
     background-color: #3c096c;
 }

@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #161a1d;
     overflow-x: hidden;
