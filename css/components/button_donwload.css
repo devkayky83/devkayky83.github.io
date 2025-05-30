@@ -10,6 +10,7 @@
     bottom: 7px;
     box-shadow: 5px 5px 0px #000000;
     transition: transform 200ms linear; 
+    cursor: pointer;
 }
 
 .button_download:hover {

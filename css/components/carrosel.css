@@ -1,0 +1,21 @@
+.carrosel {
+    position: relative;
+    box-sizing: border-box;
+}
+
+.carrosel::before {
+    justify-content: space-between;
+}
+
+.carrosel .button-arrow {
+    position:absolute;
+    bottom: 90px;
+}
+
+.carrosel .button-arrow.-left {
+    left: 90px;
+}
+
+.carrosel .button-arrow.-right {
+    right: 90px;
+}
