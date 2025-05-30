@@ -13,7 +13,7 @@
         href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Silkscreen:wght@400;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css" />
-    
+
     <link rel="stylesheet" href="css/main1.css" />
     <link rel="stylesheet" href="css/components/header.css">
     <link rel="stylesheet" href="css/components/button_donwload.css">
@@ -25,8 +25,10 @@
     <link rel="stylesheet" href="css/components/section.css">
     <link rel="stylesheet" href="css/components/skill.css">
     <link rel="stylesheet" href="css/components/progress-bar.css">
+    <link rel="stylesheet" href="css/components/carrosel.css">
     <link rel="stylesheet" href="css/components/wrapper-skill.css">
     <link rel="stylesheet" href="css/components/card-project.css">
+    <link rel="stylesheet" href="css/components/button-arrow.css">
     <link rel="stylesheet" href="css/components/wrapper-card.css">
     <link rel="stylesheet" href="css/components/description.css">
     <title>Dev Kayky Júnio</title>
@@ -39,8 +41,8 @@
             <a class="action" href="#skills" lang="en">Skills</a>
             <a class="action" href="#projetos">Projetos</a>
             <a class="action" href="">Redes-Sociais</a>
-            <a class="action" href="#sobre-mim">Sobre Mim</a>
-            <button class="button_download">Download Portfólio</button>
+            <a class="action" href="">Sobre Mim</a>
+            <button class="button_download">Download Currículo</button>
         </nav>
     </header>
 
@@ -52,8 +54,8 @@
 
         <div class="button-container">
             <a class="button-git" href="https://github.com/devkayky83" target="_blank">Github</a>
-            <a class="button-git -second" href="https://mail.google.com/mail/?view=cm&fs=1&to=dev.kayky33@gmail.com" 
-            target="_blank">Contato</a>
+            <a class="button-git -second" href="https://mail.google.com/mail/?view=cm&fs=1&to=dev.kayky33@gmail.com"
+                target="_blank">Contato</a>
         </div>
     </section>
 
@@ -114,21 +116,40 @@
     <section id="projetos" class="section -backgroundBlack">
         <h2 class="main-title -second">Projetos</h2>
 
-        <div class="wrapper-card">
-            <a href="https://github.com/devkayky83/chatbot-python" target="_blank">
-                <figure class="card-project">
-                    <img src="assets/imgs/AI-icon-pixel.png" alt="">
-                </figure>
-            </a>
-        </div>
+        <section class="carrosel">
+            <button class="button-arrow -left"><span class="content">Avançar</span></button>
+            <div class="wrapper-card card-projects">
+                <div class="elements">
+                    <a>
+                        <figure class="card-project -coming-soon">
+                            Coming Soon
+                        </figure>
+                    </a>
+                    <a href="https://github.com/devkayky83/chatbot-python" target="_blank">
+                        <figure class="card-project">
+                            <img src="assets/imgs/AI-icon-pixel.png" alt="">
+                        </figure>
+                    </a>
+                    <a>
+                        <figure class="card-project -coming-soon">
+                            Coming Soon
+                        </figure>
+                    </a>
+                </div>
+            </div>
+            <button class="button-arrow -right"><span class="content">Voltar</span></button>
+        </section>
     </section>
 
     <section id="sobre-mim" class="section">
         <h2 class="main-title -second">Sobre Mim</h2>
         <div class="description-grid">
-            <p class="description second-desc">"Atualmente tenho 22 anos, sou Desenvolvedor Full Stack, com experiência em C++,
-                Python e análise de dados além de desenvolvimento Front-End. Com background como Técnico em Manutenção de Hardware,
-                entrei neste mundo da tecnologia bem cedo através de videogames e informatica, atraindo minha atenção de como programas daquele tipo
+            <p class="description second-desc">"Atualmente tenho 22 anos, sou Desenvolvedor Full Stack, com experiência
+                em C++,
+                Python e análise de dados além de desenvolvimento Front-End. Com background como Técnico em Manutenção
+                de Hardware,
+                entrei neste mundo da tecnologia bem cedo através de videogames e informatica, atraindo minha atenção de
+                como programas daquele tipo
                 eram feitos e pensados, assim conhecendo o mundo da programação."
             </p>
             <p class="description second-desc">
@@ -144,6 +165,7 @@
             </p>
         </div>
     </section>
+    <script src="/js/components/carrosel.js"></script>
 </body>
 
 </html>

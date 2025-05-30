@@ -6,4 +6,16 @@
     justify-content: center;
     align-items: center;
     box-shadow: 10px 10px 0px #000000;
+    transition: transform 0.2s ease-in-out, opacity 0.3s ease;
+}
+
+.card-project:hover {
+    transform: scale(1.09);
+}
+
+.card-project.-coming-soon {
+    font-family: "Silkscreen", sans-serif;
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center;
 }

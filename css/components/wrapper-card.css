@@ -1,10 +1,16 @@
 .wrapper-card {
     display: flex;
     justify-content: center;
-    transition: transform 200ms linear;
 }
 
-.wrapper-card:hover {
-    transform: scale(1.09);
+.wrapper-card .card-projects {
+    width: 100%;
+    overflow: hidden;
+}
+
+.wrapper-card .elements {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
 }
 
