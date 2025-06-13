@@ -12,3 +12,12 @@
 .section.-backgroundBlack{
     background-color: #161a1d;
 }
+
+.section.-redes-sociais {
+    display: flex;
+    justify-content: center;
+}
+
+.section.-sobre-mim {
+    background-color: #161a1d;
+}
