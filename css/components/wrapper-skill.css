@@ -1,8 +1,7 @@
 .wrapper-skill {
     display: flex;
     flex-wrap: wrap;
-    max-width: 960px;
-    margin-left: auto;
+    margin-left: 350px;
     margin-right: auto;
 }
 
@@ -13,8 +12,4 @@
 
 .wrapper-skill .skill-space:nth-child(odd) {
     margin-right: 100px;
-}
-
-.wrapper-skill .progress-bar .icon {
-    width: 320px;
 }
