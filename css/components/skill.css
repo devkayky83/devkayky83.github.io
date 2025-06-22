@@ -15,9 +15,3 @@
 .skill .title {
     margin-bottom: 16px;
 }
-
-.skill .right-side {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}

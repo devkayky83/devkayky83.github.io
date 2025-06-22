@@ -4,7 +4,7 @@
     flex-direction: column;
     background-image: url(../../assets/imgs/kayky-image.png);
     height: 800px;
-    width: 1500px;
+    width: 100%;
     background-position: right top;
     background-repeat: no-repeat;
     border-bottom: 10px solid #000000;
@@ -14,10 +14,10 @@
 .banner .box{
     display: flex;
     height: 150px;
-    width: 600px;
+    width: 700px;
     flex-direction: column;
     margin-top: 115px;
-    margin-left: 90px;
+    margin-left: 130px;
     align-items: center;
     gap: 30px;
 }
